@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+body {
+
+    background: #B7C7BD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
+    
+}
+#col-izquierda{
+    background: #7B8C79;
+    padding: 40px;
+}
+
+/* .perfil-text{
+    padding-bottom: 20px;
+    border-bottom: 1px solid(255,255,255,0.2);
+} */
+.perfil-text .imgPerfil{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.perfil-text .imgPerfil img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    /* height: 100%; */
+    object-fit: cover;
+
+}
+.perfil-text h2 {
+    color: #fff;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+.perfil-text h2 span{
+    font-size: 0.8em;
+    font-weight: 300;
+}
+.infoContacto{
+    padding: 40px;
+}
+.titulo{
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.infoContacto ul{
+    position: relative;
+    
+}
+.infoContacto ul li{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+#icono{
+    display: inline;
+    width: 30px;
+    font-size: 18px;
+    /* color: rgb(51, 242, 242); */
+    color: aquamarine;
+    cursor: pointer;
+}
+.texto{
+    font-weight: 500;
+}
+.infoContacto.educacion h5{
+    color: aquamarine;
+}
+.infoContacto.educacion h4:nth-child(2){
+    font-weight: 500;
+}
+.infoContacto.educacion h4{
+    font-weight: 300;
+    
+}
+
+
+#col-derecha{
+    background: #B0BFB5;
+    padding: 40px;
+}
+.titulo2{
+    color: #025527;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+
+}
+p{
+    color: #333;
+    
+}
+.acercaDe .caja{
+    margin: 10px 0;
+}
+.acercaDe .caja .año_empresa{
+    min-width: 150px;
+}
+.acercaDe .caja .año_empresa h5{
+    text-transform: uppercase;
+    color: #848c90;
+    font-weight: 600;
+}
+.acercaDe .caja .texto h4 {
+    color: rgb(44, 99, 81);
+    font-size: 16px;
+    grid-template-columns: 150px 1fr;
+    width: 100%;
+}
+
+.generate-pdf{
+    display: inline-block;
+    position: relative;
+    top: 2.2rem;
+    left: 0;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+
+.scale-cv .generate-pdf{
+    display: none;
+}
+
+.scale-cv .area-cv{
+    max-width: 10px;
+}
+
+.scale-cv .section{
+    padding: 1.5rem 0 .80rem;
+}
+.mostrar {
+    max-height:500px;
+}
+.content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background: #B0BFB5;
+  }
+  .collapsible {
+    background: #B0BFB5;
+    /* color: white; */
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 20px;
+  }
